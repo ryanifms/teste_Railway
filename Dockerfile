@@ -4,7 +4,7 @@ FROM tomcat:9.0-jdk17-temurin
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copia seu .war renomeando para ROOT.war (acessa sem /nome-do-app)
-COPY turma-jsp-servlet.war /usr/local/tomcat/webapps/ROOT.war
+COPY turmajsp-servlet.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expõe a porta padrão do Tomcat
 EXPOSE 8080
