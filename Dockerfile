@@ -1,5 +1,5 @@
 # Usar uma imagem oficial do OpenJDK 19
-FROM eclipse-temurin:19-jdk
+FROM tomcat:9.0-jdk17-temurin
 
 # Usar a imagem base do Tomcat 9
 FROM tomcat:9.0
